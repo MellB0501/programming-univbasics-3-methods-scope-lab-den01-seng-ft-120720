@@ -17,7 +17,7 @@ end
 describe "link" do
   it "puts out 'It's Dangerous To Go Alone! Take This.'" do
     phrase = "It's Dangerous To Go Alone! Take This."
-    expect{link}.to ouput("It's Dangerous To Go Alone! Take This.\n"
+    expect{link}.to output("It's Dangerous To Go Alone! Take This.\n"
       ).to_stdout
   end
 end
